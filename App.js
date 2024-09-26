@@ -5,12 +5,13 @@ import {
   Text,
   View,
 } from 'react-native';
+import TimeOfDay from './components/TimeOfDay/TimeOfDay';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello World!</Text>
+      <View style={{height: '100%'}}>
+        <TimeOfDay />
       </View>
     </SafeAreaView>
   );
